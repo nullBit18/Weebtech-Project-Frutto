@@ -1,4 +1,4 @@
-/*--A Design by W3layouts 
+/*--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -132,7 +132,7 @@ h1,h2,h3,h4,h5,h6,p{
 	height: 100%;
 	opacity: 0;
 }
-/* SELECTED FEEDBACK ITEM */ 
+/* SELECTED FEEDBACK ITEM */
 .dropdown .selected,
 .dropdown li{
 	font-size:1.11em;
@@ -224,7 +224,7 @@ h1,h2,h3,h4,h5,h6,p{
 	border-top:5px solid #ff9900;
 }
 .search {
-	margin: 0.8em 0.8em 0 0em;	
+	margin: 0.8em 0.8em 0 0em;
 	position: relative;
 	background: #dadada;
 	padding: 5px 0px;
@@ -263,10 +263,10 @@ a.cart-in{
 	width: 79.33%;
 	border: none;
 	font-size:1.2em;
-	color:#000;	
+	color:#000;
 	font-weight:500;
 }
-.search input[type="submit"] {	
+.search input[type="submit"] {
 	width: 60px;
 	height: 46px;
 	background: #ff9900 url(../images/img-sprite.png) -55px 6px no-repeat;
@@ -297,7 +297,7 @@ a.cart-in{
 /*----*/
 .top-nav span.menu:before{
 	content: url(../images/menu.png)no-repeat 0px 0px;
-	cursor:pointer;	
+	cursor:pointer;
 	width:100%;
 }
 .top-nav span.menu{
@@ -442,7 +442,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .price h2{
 	font-size:2.5em;
-	color:#fff;	
+	color:#fff;
 	padding: 1.3em 0;
 	text-align: center;
 	text-transform: uppercase;
@@ -465,7 +465,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .look h4{
 	font-size: 1.3em;
 	text-transform: uppercase;
-	margin: 0.5em 0;	
+	margin: 0.5em 0;
 }
 .look h4 a{
 	text-decoration:none;
@@ -488,6 +488,15 @@ ul.callbacks_tabs.callbacks1_tabs {
 	padding: 2em 0;
 }
 /* General button style (reset) */
+.btn-z{
+	background: none;
+	padding: 1000px 1000px;
+	outline: none;
+
+
+
+}
+
 .btn {
 	background: none;
 	display: inline-block;
@@ -503,6 +512,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	border: 3px solid #ff9900;
 	padding: 0.7em;
 	font-weight: 500;
+	align: center;
 	text-transform: uppercase;
 	letter-spacing: 4px;
 }
@@ -520,6 +530,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	height: 100%;
 	top: 0;
 	left: 0;
+
 	background: #ff9900;
 }
 .btn-1c:hover,
@@ -692,11 +703,11 @@ ul#filters {
 }
 div#portfoliolist {
 	padding: 0px 0px;
-}	
+}
 .portfolio-wrapper {
 	overflow:hidden;
 	position: relative !important;
-	cursor:pointer;	
+	cursor:pointer;
 	padding:  0;
 }
 .portfolio img {
@@ -724,7 +735,7 @@ div#portfoliolist {
 	position: relative;
 	z-index:500;
 	padding:5px 8px;
-}		
+}
 .portfolio .text-category {
 	display:block;
 	font-size:9px;
@@ -749,14 +760,12 @@ ul.social-ic li{
 	display: inline-block;
 }
 ul.social-ic li  span{
-	background: url(../images/img-sprite.png)no-repeat -133px 0px;
+	background: url(../images/img-sprite.png) 0px 0px;
 	width: 50px;
 	height: 47px;
 	display: block;
 }
-ul.social-ic li.in-search  span{
-	background-position: -177px 0px;
-}
+
 .product {
 	padding: 5em 0 ;
 }
@@ -799,7 +808,7 @@ ul.social-ic li.in-search  span{
 }
 i.social{
 	float:left;
-	background: #ff9900 url(../images/img-sprite.png)no-repeat -218px 5px;
+
 	width: 60px;
 	height: 60px;
 	display: block;
@@ -983,7 +992,7 @@ ul.start li span{
 }
 .send input[type="submit"]:hover{
 	background: #FF9900;
-	color:#fff;	
+	color:#fff;
 }
 .contact {
 	padding: 5em 0;
@@ -1059,7 +1068,7 @@ ul.start li span{
 }
 .sign input[type="submit"]:hover{
 	background: #FF9900;
-	color:#fff;	
+	color:#fff;
 }
 .sign {
 	padding: 5em 0;
@@ -1894,4 +1903,5 @@ ul.start li span,ul.start li a {
 .service-bottom {
 	padding: 0em 0 0;
 }
+
 }
